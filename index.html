@@ -8,6 +8,19 @@
 </head>
 <body>
 
+<div class="paymentForm">
+  <form action="/your-charge-code" method="POST">
+    <script
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_test_KqGpdSyEevL9BxbssQGJ11Cq"
+      data-amount="999"
+      data-name="Demo Site"
+      data-description="Widget"
+      data-image="/img/documentation/checkout/marketplace.png"
+      data-locale="auto">
+    </script>
+  </form>
+ </div>
 
 
 <div class="grid-items">
@@ -82,6 +95,11 @@
       </ul>
     </div>
 </footer>
+
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript">
+  Stripe.setPublishableKey('pk_test_KqGpdSyEevL9BxbssQGJ11Cq');
+</script>
 
 </body>
 </html>
