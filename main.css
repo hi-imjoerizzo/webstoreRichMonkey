@@ -188,6 +188,9 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
+.paymentForm {
+  padding: 1rem 0rem 1rem 0; }
+
 .grid-items::after {
   clear: both;
   content: "";
